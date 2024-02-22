@@ -18,24 +18,24 @@ Vec(1.0, 2.0, 3.0) # double precision as expected
 Vec(1f0, 2f0, 3f0) # single precision as expected
 Vec(1, 2, 3) # integer is converted to float by design
 Vec3(1, 2, 3) # explicitly ask for double precision
-Vec3f(1, 2, 3) # explicitly ask for single precision</code></pre><p><strong>Notes</strong></p><ul><li>A <code>Vec</code> is a subtype of <code>StaticVector</code> from StaticArrays.jl</li><li>Type aliases are <code>Vec1</code>, <code>Vec2</code>, <code>Vec3</code>, <code>Vec1f</code>, <code>Vec2f</code>, <code>Vec3f</code></li></ul></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaGeometry/Meshes.jl/blob/4a0d73fb7ba6f010f4e55bad152e0a61166302b2/src/vectors.jl#L7-L45">source</a></section></article><pre><code class="language-julia hljs">rand(Vec3, 100)</code></pre><pre class="documenter-example-output"><code class="nohighlight hljs ansi">100-element Vector{Vec3}:
- Vec(0.5060400614079117, 0.19061852408230628, 0.4300114083259601)
- Vec(0.9305683160335386, 0.4961396255626741, 0.6936425417066355)
- Vec(0.013495942439942454, 0.9901579513750063, 0.7025565917585335)
- Vec(0.39118139484390013, 0.7334595678186613, 0.9855580893712875)
- Vec(0.08127396939850551, 0.5993656344353617, 0.3198669733503827)
- Vec(0.32768018257765785, 0.6252774715282913, 0.568854116853633)
- Vec(0.6757382569181433, 0.7150369749727711, 0.17366199162499907)
- Vec(0.7750091076397272, 0.44952196237257613, 0.9397705356810552)
- Vec(0.15803037589915536, 0.19673491975727253, 0.5052775144763004)
- Vec(0.6070097757831897, 0.6681148258939841, 0.9653913343769677)
+Vec3f(1, 2, 3) # explicitly ask for single precision</code></pre><p><strong>Notes</strong></p><ul><li>A <code>Vec</code> is a subtype of <code>StaticVector</code> from StaticArrays.jl</li><li>Type aliases are <code>Vec1</code>, <code>Vec2</code>, <code>Vec3</code>, <code>Vec1f</code>, <code>Vec2f</code>, <code>Vec3f</code></li></ul></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaGeometry/Meshes.jl/blob/22030e7cbef8f047ae6ca2f637aaff6d024f218b/src/vectors.jl#L7-L45">source</a></section></article><pre><code class="language-julia hljs">rand(Vec3, 100)</code></pre><pre class="documenter-example-output"><code class="nohighlight hljs ansi">100-element Vector{Vec3}:
+ Vec(0.32323638630457074, 0.4039776017924773, 0.14452451884019935)
+ Vec(0.6925822431159603, 0.14287278809810577, 0.12253238173463199)
+ Vec(0.5257492586447442, 0.7600255857827477, 0.47388566250113007)
+ Vec(0.8643528197756012, 0.42332003866869183, 0.01040884152791588)
+ Vec(0.5441980374331187, 0.7505902681634488, 0.7398836817511737)
+ Vec(0.2997817025896906, 0.8452191438882974, 0.5291578858292318)
+ Vec(0.8886915334689945, 0.08943331036772084, 0.6706872404250517)
+ Vec(0.06841998850428554, 0.019597772709986305, 0.07707343956381363)
+ Vec(0.8031366977360657, 0.15904991561375426, 0.2789717594056089)
+ Vec(0.9571197027047282, 0.21909263922840383, 0.3562129476072877)
  ⋮
- Vec(0.4811759419101873, 0.27388804701754477, 0.600394449507455)
- Vec(0.5387912908855337, 0.8165056454386111, 0.45922536652712764)
- Vec(0.39879807837024095, 0.7590327698192408, 0.35944006019725505)
- Vec(0.7667645338323633, 0.7406644142041348, 0.029208710619274658)
- Vec(0.7607744063647541, 0.7608450923126461, 0.1769821596221215)
- Vec(0.8705704841183692, 0.44510134118181566, 0.3271655385082298)
- Vec(0.4773469401458733, 0.8198858276957953, 0.47082107340357393)
- Vec(0.7396236734455932, 0.07941162250130207, 0.7140440553101856)
- Vec(0.8005719307646457, 0.6601472386468465, 0.7172321972780218)</code></pre></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="index.html">« Home</a><a class="docs-footer-nextpage" href="geometries/primitives.html">Primitives »</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 0.27.25 on <span class="colophon-date" title="Wednesday 21 February 2024 21:27">Wednesday 21 February 2024</span>. Using Julia version 1.10.1.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
+ Vec(0.8558649887474055, 0.7799939563026529, 0.6074286775059492)
+ Vec(0.6950691473107665, 0.09050675108230266, 0.29985383204195404)
+ Vec(0.8286987982430932, 0.4531643390326727, 0.6813433642178292)
+ Vec(0.7182579831248366, 0.17627206079489, 0.3081155516292201)
+ Vec(0.059021456489864454, 0.25594644944641354, 0.7962423540488126)
+ Vec(0.9245792761676083, 0.4896630656222871, 0.2964276218888049)
+ Vec(0.431303981568084, 0.8195384334755467, 0.4384546665244208)
+ Vec(0.892612024969454, 0.6052736366898984, 0.41869390102122683)
+ Vec(0.3838761766908352, 0.06957421768192729, 0.7060297487284081)</code></pre></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="index.html">« Home</a><a class="docs-footer-nextpage" href="geometries/primitives.html">Primitives »</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 0.27.25 on <span class="colophon-date" title="Thursday 22 February 2024 11:21">Thursday 22 February 2024</span>. Using Julia version 1.10.1.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
